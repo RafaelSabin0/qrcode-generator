@@ -8,10 +8,10 @@ export default function QRcodeResult (props){
 
     if(props.inputValue.length > 0){
     
-       return <QRCode value={props.inputValue}/>
+       return <QRCode className="qrcode-result" value={props.inputValue}/>
     }
    
-       return <h3>Type something to generate the QrCode</h3>
+       return <div className="message-box"></div>
    
 }
 

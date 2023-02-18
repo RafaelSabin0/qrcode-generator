@@ -1,0 +1,33 @@
+
+.main-card{
+    width: 460px;
+    height: 700px;
+    border-radius: 25px;
+    background: #fff;
+    margin: 4rem;
+    margin-left: 42rem;
+    text-align: center;
+    padding: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.qrcode-input{
+    width: 256px;
+    position: relative;
+    margin: 5rem;
+}
+
+.qrcode-result{
+    margin-top: 5rem;
+}
+
+.download-section{
+    margin-top: 5rem;
+    position: relative;
+}
+
+.download-button{
+    color: #fff !important;
+    font-weight: bold !important;
+    background-color: #000 !important;
+}

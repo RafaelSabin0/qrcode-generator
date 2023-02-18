@@ -1,0 +1,14 @@
+.message-box{
+    width: 256px;
+    height: 256px;
+    margin: auto;
+    margin-top: 5rem;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.qrcode-result{
+    margin-top: 5rem;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
