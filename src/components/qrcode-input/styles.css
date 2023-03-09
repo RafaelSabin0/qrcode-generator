@@ -1,14 +1,15 @@
 
 .main-card{
-    width: 460px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    max-width: 460px;
     height: 700px;
-    border-radius: 25px;
-    background: #fff;
-    margin: 4rem;
-    margin-left: 42rem;
     text-align: center;
+    background: #fff;
     padding: 5rem;
+    border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
 
 .qrcode-input{
@@ -21,6 +22,13 @@
     margin-top: 5rem;
 }
 
+
+@media only screen and (max-width: 622px){
+    .main-card{
+        height: 500px;
+    }
+
+}
 
 
 

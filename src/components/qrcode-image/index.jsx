@@ -4,7 +4,6 @@ import QRCode from 'react-qr-code';
 import { toPng } from 'html-to-image';
 import './styles.css';
 
-
 export default function QRcodeResult (props){
 
     const canvas = document.getElementById("qr-code-img");
@@ -19,7 +18,7 @@ export default function QRcodeResult (props){
          const link = document.createElement('a');
          link.style.display = 'none';
          link.href = dataUrl;
-         link.download = 'mything.png';
+         link.download = 'qr-code.png';
          link.click();
       })
 
